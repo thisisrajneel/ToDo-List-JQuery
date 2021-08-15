@@ -1,28 +1,15 @@
 .heading {
     width: fit-content;
-    margin: auto;
+    margin: 30px auto;
 }
-.btn {
-    border-radius: 15px;
-    padding: auto;
-    margin: 2px;
-}
-.grid {
+
+.controller {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .buttons {
-    display: grid;
-}
-
-@media screen and (min-width: 901px) {
-    .buttons {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 500px), (max-width: 900px) {
-    .buttons {
-        grid-template-columns: 1fr 1fr;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

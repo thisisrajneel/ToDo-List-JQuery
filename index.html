@@ -15,25 +15,29 @@
     <title>ToDo List</title>
   </head>
   <body>
+    <!-- Heading -->
     <div>
-      <h1 class="heading">ToDo List</h1>
+        <h1 class="heading">
+            ToDo List
+        </h1>
     </div>
 
-    <div class="grid">
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">Task</span>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    <div class="controller">
+        <!-- Input -->
+        <div class="input-group input-group-lg">
+            <span class="input-group-text">Task</span>
+            <input type="text" class="form-control" aria-label="Sizing example input">
         </div>
-      <div class="buttons">
-        <button type="button" class="btn btn-danger">Left</button>
 
-        <button type="button" class="btn btn-warning">Middle</button>
-
-        <button type="button" class="btn btn-success">Right</button>
-
-        <button type="button" class="btn btn-primary">Left</button>
-      </div>
+        <!-- Buttons -->
+        <div class="buttons">
+            <button type="button" class="btn btn-success col p-2 m-2">Add</button>
+            <button type="button" class="btn btn-primary col p-2 m-2">Sort</button>
+            <button type="button" class="btn btn-warning col p-2 m-2">Clear</button>
+            <button type="button" class="btn  btn-danger col p-2 m-2">Remove</button>
+        </div>
     </div>
+
   </body>
   <!-- Bootstrap JS -->
   <script
