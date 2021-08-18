@@ -1,4 +1,5 @@
 let add = $("#btnAdd");
+let clear = $("#btnClear");
 let input = $("#inpAdd");
 let list = $("#taskList")
 
@@ -11,3 +12,5 @@ add.click(()=>{
     list.prepend(newTask)
     input.val('');
 })
+
+clear.click(() => input.val(''))
